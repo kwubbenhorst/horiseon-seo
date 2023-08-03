@@ -8,13 +8,15 @@ body {
     background-color: #d9dcd6;
 }
 
+/* The background color of the header was changed to provide the requisite 3:1 contrast ratio between the "seo" in the company name and the background color */
 #mainHeader {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #214a5e;
     color: #ffffff;
 }
 
+/* The company name was given its own section and ID in HTML so that it could be styled as an inline block.  This is necessary to overcome the defaults of the h1 tag which normally takes the whole width of the page */
 #companyName {
     display: inline-block;
 }
@@ -23,10 +25,12 @@ body {
     font-size: 48px;
 }
 
+/* The color of "seo" in the company name was given this colour value so that it satisfies the requisite 3:1 contrast ratio with both the rest of the h1 heading and the background of the header */
 #companyName h1 .seo {
-    color: #d9dcd6;
+    color: #8F9583;
 }
 
+/* Though beyond the scope of this update to accessibility for SEO, there is also responsiveness to consider -- an accessibility concern because it provides the user with the best visual experience regardless of the device. Instead of floating elements and using absolute measurements (px) it would be good in a future update to make greater use of flexbox and relative measures both in the navbar and in the content sections */
 #navbar {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,7 +41,7 @@ body {
 
 #navbar ul {
     list-style-type: none;
-    display: flex
+    display: flex;
     margin-left: 300px;
 }
 
@@ -52,6 +56,7 @@ a {
     text-decoration: none;
 }
 
+/* Although the hero header is an image it is not coded in the HTML where giving it an alt attribute would be possible but rather in the stylesheet as a background image. The work-around in order to still make the image describable by screen readers is to provide a figcaption and then hide it using display: none */
 #heroHeader {
     height: 800px;
     width: 100%;
@@ -59,6 +64,10 @@ a {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.heroHeaderAltDescription {
+    display:none;
 }
 
 .float-left {
@@ -71,15 +80,16 @@ a {
     margin-left: 25px;
 }
 
+/* As paragraphs only occur in the Showcase and Sidebar sections I moved the rule which styles for p to this location to make for logical top to bottom flow in the stylesheet */
+
+p {
+    font-size: 16px;
+}
+
 #contentShowcase {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-}
-
-<!-- where should this go?-->
-p {
-    font-size: 16px;
 }
 
 #benefitsSidebar {
