@@ -10,7 +10,7 @@ In dialog with the company's tech lead, it was agreed that the webpage update wo
 
 ![Comparison screenshot of the original webpage on the left with the updated page on the right](<Screenshot for Horiseon README.png>)
 
-Though beyond the scope of this project, the focus of which was accessibility with a view to search engine optimization, future updates might consider improving user accessibility by making the page responsive, so that it can provide an optimal viewing experience regardless of the device used. Some interactive features would also make the page more operable, understandable and robust. Also understandability would benefit from a copy-edit of the text content. Many of the terms used, for example, "inbound strategies for lead generation," might be unintelligible to someone without a formal background in business or marketing, or to users for whom English is not a first language. 
+Though beyond the scope of this project, the focus of which was accessibility with a view to search engine optimization, future updates might consider improving user accessibility by making the page responsive, so that it can provide an optimal viewing experience regardless of the device used. The navbar in particular, which should appear inline with the company name, is prone to drop down if not viewed in landscape and at a certain min-width. Some interactive features would also make the page more operable, understandable and robust. Also understandability would benefit from a copy-edit of the text content. Many of the terms used, for example, "inbound strategies for lead generation," might be unintelligible to someone without a formal background in business or marketing, or to users for whom English is not a first language. 
 
 ## Installation
 
@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-The page is deployed and ready for use on the World Wide Web. 
+The page is deployed and ready for use on the World Wide Web.  Please visit https://kwubbenhorst@github.io/horiseon-seo 
 
 ## Credits
 
