@@ -18,7 +18,7 @@ N/A
 
 ## Usage
 
-The page is deployed and ready for use on the World Wide Web.  Please visit https://kwubbenhorst@github.io/horiseon-seo 
+The page is deployed and ready for use on the World Wide Web.  Please visit https://kwubbenhorst.github.io/horiseon-seo 
 
 ## Credits
 
